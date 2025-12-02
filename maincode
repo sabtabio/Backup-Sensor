@@ -1,0 +1,38 @@
+# this is the complete code for the Distance Sensor
+from gpiozero import DistanceSensor
+from time import sleep
+from signal import pause
+from gpiozero import LED
+
+sensor = DistanceSensor(echo=23, trigger=24, max_distance=2.0)
+led = LED(17)
+
+while True:
+     distance = sensor.distance * 100
+     print("Distance: %.2f" % distance)
+     sleep(0.5)
+     while distance < 100:
+          led.on()
+          sleep(0.5)
+          led.off()
+          print("Distance: %.2f" % distance)
+          sleep(0.5)
+          while distance < 50 and distance > 25:
+               led.on()
+               sleep(0.25)
+               led.off()
+               print("Distance: %.2f" % distance)
+               sleep(0.25)
+           while distance < 25 and distance > 10:
+               led.on()
+               sleep(0.10)
+               led.off()
+               print("Distance: %.2f" % distance)
+               sleep(0.10)
+          while distance < 10:
+               led.on()
+               sleep(0.5)
+               print("Distance: %.2f" % distance)
+               sleep(0.10)
+          led.off()
+    
