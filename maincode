@@ -1,7 +1,6 @@
 # this is the complete code for the Distance Sensor
 from gpiozero import DistanceSensor
 from time import sleep
-from signal import pause
 from gpiozero import LED
 
 sensor = DistanceSensor(echo=23, trigger=24, max_distance=2.0)
