@@ -26,3 +26,5 @@ These connections allow the Raspberry Pi to power the ultrasonic sensor, send a 
 
 ## Step 2:
 After connecting my distance sensor I connected the led. You can see the wiring in this picture:
+![IMG_1255](https://github.com/user-attachments/assets/147d0e1e-0100-4c03-9668-0badbf07d58d)
+
