@@ -23,3 +23,6 @@ I placed a red jumper wire onto the 5-volt power pin on the Raspberry Pi and con
 I connected the white jumper wire from the Raspberry Pi’s GPIO24 pins to the Trig pin of the ultrasonic sensor so the Raspberry Pi can send a trigger signal. I then routed the blue jumper wire from the Echo pin of the ultrasonic sensor through the two resistors on the breadboard, creating a voltage divider that reduces the signal down to a safe voltage. I connected the other end of the blue wire to the GPIO23 pin on the Raspberry Pi so it can safely read the return signal.
 
 These connections allow the Raspberry Pi to power the ultrasonic sensor, send a trigger pulse, and safely receive the echo signal for measuring distance.
+
+## Step 2:
+After connecting my distance sensor I connected the led. You can see the wiring in this picture:
