@@ -1,11 +1,13 @@
 # Backup-Sensor
 
-These are the instructions to create your own distance sensor with a raspberry pi. The sensor will measure the distance from it and pulse a light depending on how far away from it you are.
+These are the instructions to create your own distance indicator device using a Raspberry Pi, and HC-SR04 ultrasonic distance sensor, and LEDs. The device measures distance in real time and uses LEDs to display how close an object is.
 
-The parts you will need are:
+Components Needed:
 
 * Raspberry Pi
 * Breadboard
-* 4 male to female jumper cables
-* 2 330 ohm resistors
-* 1 470 ohm resistor
+* 1 x LED
+* 4 x male to female jumper cables
+* 2 x 330 ohm resistors
+* 1 x 470 ohm resistor
+* 1 x HC-SR04 ultrasonic distance sensor
