@@ -11,3 +11,6 @@ Components Needed:
 * 2 x 330 ohm resistors
 * 1 x 470 ohm resistor
 * 1 x HC-SR04 ultrasonic distance sensor
+
+This schematic shows how I wired my breadboard to the Raspberry Pi:
+<img width="462" height="314" alt="Fritzingfinal" src="https://github.com/user-attachments/assets/339d444a-beb9-4401-a470-050822cac9de" />
