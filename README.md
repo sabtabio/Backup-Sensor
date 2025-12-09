@@ -13,10 +13,12 @@ Components Needed:
 * 1 x HC-SR04 ultrasonic distance sensor
 
 This schematic shows how I wired my breadboard to the Raspberry Pi:
+
 <img width="462" height="314" alt="Fritzingfinal" src="https://github.com/user-attachments/assets/339d444a-beb9-4401-a470-050822cac9de" />
 
 ## Step 1:
-First I connected my distance sensor, you can see the connection in these pictures:![IMG_1259](https://github.com/user-attachments/assets/fa60f0f1-504e-45ce-bb5f-ecb005550bc8)
+First I connected my distance sensor, you can see the connection in these pictures:
+![IMG_1259](https://github.com/user-attachments/assets/fa60f0f1-504e-45ce-bb5f-ecb005550bc8)
 ![image0](https://github.com/user-attachments/assets/bc68a392-3e71-4f75-89fa-b6b2a553997b)
 I placed a red jumper wire onto the 5-volt power pin on the Raspberry Pi and connected the other end to the positive power rail on the breadboard to supply power to the ultrasonic sensor. I placed a black jumper wire onto a ground pin on the Raspberry Pi and connected it to the ground rail on the breadboard to complete the circuit.
 
@@ -26,5 +28,11 @@ These connections allow the Raspberry Pi to power the ultrasonic sensor, send a 
 
 ## Step 2:
 After connecting my distance sensor I connected the led. You can see the wiring in this picture:
+
 ![IMG_1255](https://github.com/user-attachments/assets/147d0e1e-0100-4c03-9668-0badbf07d58d)
 
+I placed a resistor that lines up with the cathode of the LED light, preventing the LED light from drawing too much power. I then connected a male-to-female jumper cable (Black cable) from the ground pin 39 to the breadboard. I placed another male-to-female jumper cable to align with the anode of the LED light, I have that cable connected to GPIO 17 on the Raspberry Pi.
+
+## Step 3:
+
+Once everything has been connected we have to create the code for the sensor. You can fine my code for the sensor here.
