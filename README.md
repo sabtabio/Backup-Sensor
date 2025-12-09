@@ -35,4 +35,15 @@ I placed a resistor that lines up with the cathode of the LED light, preventing 
 
 ## Step 3:
 
-Once everything has been connected we have to create the code for the sensor. You can fine my code for the sensor here<https://github.com/sabtabio/Backup-Sensor/blob/72e09309d7a6f8e621395dfd6df3f7e2eeefa26c/maincode>.
+Once everything has been connected we have to create the code for the sensor. You can fine my code for the sensor here:
+<https://github.com/sabtabio/Backup-Sensor/blob/72e09309d7a6f8e621395dfd6df3f7e2eeefa26c/maincode>.
+To make an executable program open your terminal and type "nano filename.py". YOu can name it whatever you like, I named it backupsensor.py. What this does is creates a file under whatever you named it and enters the text editor. Now you can copy and paste my code from the link above then save and the editor. You can see the file I created as well as what the text editor looks like below.
+<img width="1278" height="673" alt="python code" src="https://github.com/user-attachments/assets/33534a84-e233-46ed-b34d-b886be3a8908" />
+<img width="1278" height="728" alt="fullpython" src="https://github.com/user-attachments/assets/5159fd95-f1a8-4b76-9640-e03b81be8e63" />
+
+## Step 4:
+
+The file should now be executable, to run this file in the terminal just type in "python filename.py". 
+<img width="1277" height="672" alt="runcode" src="https://github.com/user-attachments/assets/58c418d6-4b2d-4dc9-b8e1-26051821090e" />
+Once the code is running, the distance sensor will activate the LED whenever an object is detected within 100 cm. The LED will flash at a slow rate at this distance, increase its flashing speed at 50 cm, and flash even faster at 25 cm. When the object is closer than 10 cm, the LED will remain steadily on. You can see in the video below how it should be properly running.
+https://youtube.com/shorts/0DFrfmVFYmA?si=4LSVcP_dTi8ToJwT
