@@ -35,4 +35,4 @@ I placed a resistor that lines up with the cathode of the LED light, preventing 
 
 ## Step 3:
 
-Once everything has been connected we have to create the code for the sensor. You can fine my code for the sensor here.
+Once everything has been connected we have to create the code for the sensor. You can fine my code for the sensor here<https://github.com/sabtabio/Backup-Sensor/blob/72e09309d7a6f8e621395dfd6df3f7e2eeefa26c/maincode>.
